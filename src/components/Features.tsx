@@ -37,8 +37,8 @@ export default function Features() {
           >
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=2070&auto=format&fit=crop"
-                alt="Produção de mel artesanal"
+                src="/honey-5.jpg"
+                alt="Mel puro e artesanal Apiário Costa"
                 className="rounded-2xl shadow-2xl relative z-10"
                 referrerPolicy="no-referrer"
               />

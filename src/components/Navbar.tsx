@@ -19,13 +19,8 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-brand-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-12 lg:px-12">
         <div className="flex justify-between items-center h-20">
-          <div className="flex-shrink-0 flex items-center space-x-2">
-            <div className="w-10 h-10 bg-brand-wine flex items-center justify-center rounded-full">
-              <span className="text-brand-white font-serif text-xl">C</span>
-            </div>
-            <span className="font-bold tracking-widest uppercase text-xl">
-              Apiário Costa
-            </span>
+          <div className="flex-shrink-0 flex items-center">
+            <img src="/logo.jpg" alt="Apiário Costa Logo" className="h-16 w-auto object-contain" />
           </div>
 
           {/* Desktop Menu */}

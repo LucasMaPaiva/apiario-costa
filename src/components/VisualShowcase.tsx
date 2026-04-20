@@ -3,19 +3,19 @@ import { motion } from "motion/react";
 export default function VisualShowcase() {
   const images = [
     {
-      url: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?q=80&w=2070&auto=format&fit=crop",
+      url: "/honey-1.jpg",
       title: "Identidade"
     },
     {
-      url: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=2070&auto=format&fit=crop",
+      url: "/honey-2.jpg",
       title: "Origem"
     },
     {
-      url: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?q=80&w=2070&auto=format&fit=crop",
+      url: "/honey-3.jpg",
       title: "Textura"
     },
     {
-      url: "https://images.unsplash.com/photo-1471943311424-646960669fba?q=80&w=1974&auto=format&fit=crop",
+      url: "/honey-4.jpg",
       title: "Pureza"
     }
   ];

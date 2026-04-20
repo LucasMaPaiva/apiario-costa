@@ -7,25 +7,25 @@ export default function Products() {
       name: "Mel Silvestre Premium",
       desc: "Colheita artesanal com notas florais suaves e textura cristalina.",
       price: "Pote 500g",
-      image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?q=80&w=2070&auto=format&fit=crop"
+      image: "/honey-2.jpg"
     },
     {
       name: "Favo de Mel Nativo",
       desc: "Experiência completa da colmeia para sua mesa, 100% in natura.",
       price: "Unidade 300g",
-      image: "https://images.unsplash.com/photo-1471943311424-646960669fba?q=80&w=1974&auto=format&fit=crop"
+      image: "/honey-3.jpg"
     },
     {
       name: "Mel de Eucalipto",
       desc: "Sabor intenso e propriedades revigorantes, ideal para o dia a dia.",
       price: "Pote 1kg",
-      image: "https://images.unsplash.com/photo-1555529731-1375d0f62464?q=80&w=1974&auto=format&fit=crop"
+      image: "/honey-4.jpg"
     },
     {
       name: "Própolis Verde",
       desc: "Extrato puro para reforçar sua imunidade com força da natureza.",
       price: "Frasco 30ml",
-      image: "https://images.unsplash.com/photo-1563483783225-bc5334088998?q=80&w=2074&auto=format&fit=crop"
+      image: "/honey-5.jpg"
     }
   ];
 
