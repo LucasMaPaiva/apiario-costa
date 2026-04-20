@@ -37,7 +37,7 @@ export default function VisualShowcase() {
           </motion.div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 h-[600px]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 h-auto md:h-[600px]">
           {images.map((img, index) => (
             <motion.div
               key={index}

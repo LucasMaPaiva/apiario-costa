@@ -48,13 +48,13 @@ export default function About() {
               </p>
             </div>
             
-            <div className="mt-12 flex space-x-12">
+            <div className="mt-12 flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-12">
               <div>
-                <span className="block text-5xl font-serif text-brand-mel font-bold mb-1 italic">100%</span>
+                <span className="block text-4xl sm:text-5xl font-serif text-brand-mel font-bold mb-1 italic">100%</span>
                 <span className="text-[10px] uppercase tracking-widest text-brand-dark/40 font-bold">Natural & Puro</span>
               </div>
               <div>
-                <span className="block text-5xl font-serif text-brand-mel font-bold mb-1 italic">+Qualidade</span>
+                <span className="block text-4xl sm:text-5xl font-serif text-brand-mel font-bold mb-1 italic">+Qualidade</span>
                 <span className="text-[10px] uppercase tracking-widest text-brand-dark/40 font-bold">Artesanalismo</span>
               </div>
             </div>
@@ -65,7 +65,7 @@ export default function About() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="grid grid-cols-2 gap-4"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-4"
           >
             {values.map((value, index) => (
               <div 
